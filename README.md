@@ -13,7 +13,7 @@ In this project, the system consists of a parent memory that holds a larger set 
    4) Least Occurred Deletion: When the cache becomes full, the least occurred (least frequently accessed or least recently used) memory addresses are evicted to make room for new data.
    5) Modified Cache: The cache keeps track of modified memory addresses that have been recently accessed or added to the cache.
 # Components
-# 1. [Allocator Class] {https://github.com/CHIRANJEET1729DAS/Cache_Simulator-c-/blob/main/Header_files/allocator.hpp} :
+# 1. [Allocator Class](https://github.com/CHIRANJEET1729DAS/Cache_Simulator-c-/blob/main/Header_files/allocator.hpp) :
   The Allocator class simulates memory allocation. It is responsible for allocating blocks of memory, which are stored as pointers (char*). This class is a basic representation of a memory allocation system, and it provides:
   
   Methods to allocate memory of different sizes.
@@ -24,7 +24,7 @@ In this project, the system consists of a parent memory that holds a larger set 
   allocate_memory(size_t size): Allocates a memory block of a smaller size and adds it to the list of allocated addresses.
   printAllocatedaddresses(): Displays all the allocated memory addresses.
   getAllocatedaddresses(): Retrieves all the allocated memory addresses.
-# 2. [Cache Simulator Class] {https://github.com/CHIRANJEET1729DAS/Cache_Simulator-c-/blob/main/Header_files/cache_simulator.hpp}:
+# 2. [Cache Simulator Class](https://github.com/CHIRANJEET1729DAS/Cache_Simulator-c-/blob/main/Header_files/cache_simulator.hpp):
   The Cache_simulator class is the core of this project. It handles the cache simulation, including the logic for cache hits, misses, and eviction of least occurred memory. The main responsibilities of this class are:
   
   Tracking the number of hits and misses.
